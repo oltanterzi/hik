@@ -1640,6 +1640,18 @@ input, select, textarea {
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
+		
+		#footer .signature {
+			margin-top: 10px;
+			display: flex;
+			justify-content: center;
+		}
+
+		#footer .signature img {
+			max-width: 200px;
+			height: auto;
+			display: block;
+		}
 
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
